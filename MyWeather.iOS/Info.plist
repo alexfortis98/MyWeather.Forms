@@ -49,6 +49,6 @@
 	<key>CFBundleName</key>
 	<string>MyWeather.iOS</string>
 	<key>CFBundleIdentifier</key>
-	<string>meirav</string>
+	<string>meirav.test</string>
 </dict>
 </plist>
