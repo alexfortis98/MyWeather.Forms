@@ -40,7 +40,7 @@ namespace MyWeather.Services
 			var locator = CrossGeolocator.Current;
 			locator.DesiredAccuracy = 50;
 
-			var position = await locator.GetPositionAsync (timeoutMilliseconds: 10000);
+			var position = await locator.GetPositionAsync (TimeSpan.FromSeconds(10));
 
 			return await GetWeather (position.Latitude, position.Longitude,units);
 			

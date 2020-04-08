@@ -7,8 +7,8 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Xamarin.Forms;
-using Xamarin.Forms.Platform.Android;
 using Plugin.Permissions;
+using Xamarin.Forms.Platform.Android;
 using Android.Content.PM;
 
 namespace MyWeather.Droid
